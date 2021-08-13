@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculate System</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="alert alert-dark">
+        <b>
+            Grade Calculate System <h5 id="userid">User Id:</h5>
+        </b>
+    </div>
+    <div class="container">
+        <form>
+            <label for="chemisrty"><b>Chemisrty</b></label>
+            <input id="chemisrty" type="text" placeholder="Enter your number" name="chemisrty" required="required">
+
+            <label for="physics"><b>Physics</b></label>
+            <input id="physics" type="text" placeholder="Enter your number" name="physics" required="required">
+
+            <label for="math"><b>Math</b></label>
+            <input id="math" type="text" placeholder="Enter your number" name="math" required="required">
+
+            <label for="english"><b>English</b></label>
+            <input id="english" type="text" placeholder="Enter your number" name="english" required="required">
+
+            <label for="urdu"><b>Urdu</b></label>
+            <input id="urdu" type="text" placeholder="Enter your number" name="urdu" required="required">
+
+            <button type="button" id="button" onclick="cal()">Submit</button>
+
+        </form>
+    </div>
+
+    <table>
+        <tr>
+            <th colspan="2" style="text-align: center;">Result </th>
+        </tr>
+        <tr>
+            <th>Total Marks:</th>
+            <td id="total"></td>
+        </tr>
+        <tr>
+            <th>Obtain Marks:</th>
+            <td id="obtain"></td>
+        </tr>
+        <tr>
+            <th>Percentage:</th>
+            <td id="percent"></td>
+        </tr>
+        <tr>
+            <th>Grade:</th>
+            <td id="grade"></td>
+        </tr>
+        <tr>
+            <th>Remark:</th>
+            <td id="remark"></td>
+        </tr>
+
+    </table>
+    <footer>
+        <p>Creator: M.Areeb<br>
+            <a href="m.areebkhan125@gmail.com" target="_blank">m.areebkhan125@gmail.com</a>
+        </p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
