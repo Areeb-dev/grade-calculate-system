@@ -1,9 +1,4 @@
-let id=Number(prompt("Enter your id"));
-let userId=document.getElementById("userid")
-userId.innerHTML += id;
-if(id === 0){
-  totalMarks = 0;
-}
+
 let totalMarks=Number(prompt("Enter your total number"));
 let total = document.getElementById("total");
 total.innerHTML = totalMarks;
