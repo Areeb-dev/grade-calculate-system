@@ -1,4 +1,3 @@
-
 let totalMarks=Number(prompt("Enter your total number"));
 let total = document.getElementById("total");
 total.innerHTML = totalMarks;
